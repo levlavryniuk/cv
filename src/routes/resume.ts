@@ -2,7 +2,7 @@ export const resumeData = {
 	name: 'Lev Lavryniuk',
 	title: 'Software engineer',
 	summary:
-		"I'm a Software Engineer who loves building things that work well and fast. While I've spent a lot of time in the TypeScript web world creating scalable web apps, but my heart lies in making performance-critical services with Rust. I enjoy leading projects, helping others grow, and making sure the software I deliver is top-shelf.",
+		"I'm a Software Engineer who loves building things that work well and fast. While I've spent a lot of time in the TypeScript web world creating scalable web apps, my heart lies in making performance-critical services with Rust. I enjoy leading projects, helping others grow, and making sure the software I deliver is top-shelf.",
 	contact: {
 		email: 'levlavryniuk@gmail.com',
 		phone: '+380 67 731 54 12',
