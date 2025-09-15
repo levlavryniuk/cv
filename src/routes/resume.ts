@@ -52,7 +52,7 @@ export const resumeData = {
 		{
 			role: 'Fullstack developer ( Go + Next.js )',
 			company: 'Lioneight',
-			period: '2025 – present',
+			period: '2025 – end of 2025',
 			description: [
 				'Implemented UI based on figma design',
 				'Created business logic implementation in Go ',
@@ -62,6 +62,13 @@ export const resumeData = {
 		}
 	],
 	projects: [
+		{
+			name: 'Sqlorm',
+			stack: 'Rust',
+			description:
+				'An ergonomic, lightweight SQL ORM for Rust with type-safe query building and powerful entity relationships.',
+			link: 'https://github.com/levlavryniuk/sqlorm'
+		},
 		{
 			name: 'Cherrytrader',
 			stack: 'Go, Next.js, Google cloud, Google spanner',
