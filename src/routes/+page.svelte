@@ -261,7 +261,7 @@
 							Work Experience
 						</h3>
 						<div class="space-y-6">
-							{#each resumeData.experience as job (job)}
+							{#each resumeData.experience.toReversed() as job (job)}
 								<article
 									class="work-experience"
 									itemscope
