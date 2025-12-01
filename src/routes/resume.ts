@@ -2,7 +2,7 @@ export const resumeData = {
   name: 'Lev Lavryniuk',
   title: 'Rust software engineer',
   summary:
-    "I'm a software engineer who loves building things that work well and fast. I have build various applications in Typescript, as i have started my career with it, but for last 3 years i have been enjoying Rust as my main programming language. I specialize in creating web services and solana applications",
+    "Rust/Typescript mainer. Big enjoyer of creating dev tooling/infra with Rust. ",
   contact: {
     email: 'work@lavryniuk.com',
     phone: '+380 67 731 54 12',
@@ -11,10 +11,9 @@ export const resumeData = {
     location: 'Kyiv, Ukraine'
   },
   skills: {
-    languages: ['Rust', 'Typescript', 'Anchor'],
-    "Preffered stack": ["Axum", "Svelte", "Postgres"],
-    "Other Skills": ['Docker', 'Git', 'Unix', 'Databases', 'Java', 'C', 'Golang']
-
+    "Main languages": ['Rust', 'Typescript'],
+    "Related skills":['Web servers', 'gRPC', 'protobuf', 'kafka/rabbitmq', 'CI/CD', 'React/Next', "Svelte"],
+    "Other Skills": ['Docker', 'Git', 'Unix', 'Databases', 'Golang']
   },
   experience: [
     {
@@ -24,13 +23,13 @@ export const resumeData = {
       description: ['Led a team of 3 developers', 'Architected and designed product']
     },
     {
-      role: 'Software engineer',
+      role: 'Software engineer ( Svelte, Next.js, Rust )',
       company: 'Freelance',
       period: '2023 – 2024',
       description: ['Created software ( websites, scrapers, software ) based on client needs']
     },
     {
-      role: 'Software engineer',
+      role: 'Software engineer ( Rust )',
       company: 'Kinston trading',
       period: '2023 – mid 2024',
       description: [
