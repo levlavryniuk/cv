@@ -12,7 +12,7 @@ export const resumeData = {
   },
   skills: {
     "Main languages": ['Rust', 'Typescript'],
-    "Related skills":['Web servers', 'gRPC', 'protobuf', 'kafka/rabbitmq', 'CI/CD', 'React/Next', "Svelte"],
+    "Related skills": ['Web servers', 'gRPC', 'protobuf', 'kafka/rabbitmq', 'CI/CD', 'React/Next', "Svelte"],
     "Other Skills": ['Docker', 'Git', 'Unix', 'Databases', 'Golang']
   },
   experience: [
@@ -57,7 +57,13 @@ export const resumeData = {
         'Mentored a junior developer',
         'Worked with a team of +-9 people'
       ]
-    }
+    },
+    {
+      company: 'Stortera',
+      role: 'Software engineer ( Rust )',
+      period: 'Q4 2025 – now',
+      description: ['Architected product from scratch', 'Designed mission-critical software']
+    },
   ],
   projects: [
     {
