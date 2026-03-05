@@ -20,6 +20,7 @@
 		url: githubUrl,
 		sameAs: [githubUrl, linkedinUrl],
 		description: resumeData.summary,
+		image: '/favicon.ico',
 		knowsAbout: Object.values(resumeData.skills).flat(),
 		alumniOf: {
 			'@type': 'EducationalOrganization',
