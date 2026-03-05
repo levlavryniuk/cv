@@ -2,7 +2,6 @@
 	import { resumeData } from './resume';
 
 	const githubUrl = `https://github.com/${resumeData.contact.github}`;
-	// Consider replacing with your actual LinkedIn URL; removed from sameAs if left as a joke.
 	const linkedinUrl =
 		'https://www.reddit.com/r/StructuralEngineering/comments/m6z79d/i_hate_linkedin_i_hate_so_much_about_it_but/';
 
@@ -20,7 +19,7 @@
 		url: githubUrl,
 		sameAs: [githubUrl, linkedinUrl],
 		description: resumeData.summary,
-		image: '/favicon.ico',
+		image: 'https://lavryniuk.com/icon.png',
 		knowsAbout: Object.values(resumeData.skills).flat(),
 		alumniOf: {
 			'@type': 'EducationalOrganization',
@@ -46,15 +45,19 @@
 	<meta property="og:type" content="profile" />
 	<meta property="og:title" content={`${resumeData.name} - ${resumeData.title}`} />
 	<meta property="og:description" content={(resumeData.summary || '').slice(0, 155) + '...'} />
-	<meta property="og:url" content="https://your-site.example" />
+	<meta property="og:url" content="https://lavryniuk.com" />
+	<meta property="og:image" content="https://lavryniuk.com/icon.png" />
+	<meta property="og:image:alt" content={`Photo of ${resumeData.name}`} />
 	<meta property="profile:first_name" content={resumeData.name.split(' ')[0]} />
 	<meta property="profile:last_name" content={resumeData.name.split(' ').slice(1).join(' ')} />
 
-	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content={`${resumeData.name} - ${resumeData.title}`} />
 	<meta property="twitter:description" content={(resumeData.summary || '').slice(0, 155) + '...'} />
+	<meta property="twitter:image" content="https://lavryniuk.com/icon.png" />
+	<meta property="twitter:image:alt" content={`Photo of ${resumeData.name}`} />
 
-	<link rel="canonical" href="https://your-site.example" />
+	<link rel="canonical" href="https://lavryniuk.com" />
 
 	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
 </svelte:head>
